@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>eurekaclient-1</artifactId>
+	<artifactId>employee-producer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>eurekaserver-1</name>
 	<description>eureka client project for Spring Boot</description>

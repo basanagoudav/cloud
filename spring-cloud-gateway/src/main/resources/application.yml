@@ -1,5 +1,5 @@
 server:
-  port: 9090
+  port: 9094
 eureka:
   client:
     serviceUrl:
@@ -14,7 +14,7 @@ spring:
         lowerCaseServiceId: true
 #The routes: part of the YAML file above defines the route which will be used to make our API Gateway to route all requests sent to /users/** to a Microservice URI lb://PHOTOAPPAPI-USERS/users which is registered with Eureka Server.
 #forward any request matches users to lb://employee-producer/employeeGreetings which means http://localhost:apigateway/employee-producer/employeeGreetings or http://localhost:apigateway/employeeGreetings to employee-producer app
-#if you dont specify below code, by default based on app name it routes the request ex : http://localhost:9090/apigateway/employee-producer/employeeGreetings on round robbin fashion
+#if you dont specify below code, by default based on app name it routes the request ex : http://localhost:9094/apigateway/employee-producer/employeeGreetings on round robbin fashion
     #routes:
     #- id: users
       #uri: lb://employee-producer
