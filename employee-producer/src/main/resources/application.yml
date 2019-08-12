@@ -1,6 +1,8 @@
 spring : 
  application :
   name : employee-producer
+ zipkin :
+  baseUrl: https://54.224.179.230:9411/
 server:
  port: 8082
 eureka:
