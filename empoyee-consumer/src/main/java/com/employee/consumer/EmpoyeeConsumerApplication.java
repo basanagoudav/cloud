@@ -8,6 +8,10 @@ public class EmpoyeeConsumerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EmpoyeeConsumerApplication.class, args);
+		System.out.println("hello");
+		System.out.println("hello");
+		System.out.println("hello");
+		System.out.println("hello");
 	}
 
 }
