@@ -4,7 +4,7 @@ pipeline {
    stages {
       stage('Hello') {
          steps {
-            sh docker build -t basanna1357/anandrepo .
+            sh "docker build -t basanna1357/anandrepo ."
          }
       }
    }
